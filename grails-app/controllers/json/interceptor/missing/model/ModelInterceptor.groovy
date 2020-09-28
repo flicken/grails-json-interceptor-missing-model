@@ -2,6 +2,8 @@ package json.interceptor.missing.model
 
 class ModelInterceptor {
 
+    Object latestModel
+
     ModelInterceptor() {
         matchAll()
     }
@@ -16,6 +18,7 @@ class ModelInterceptor {
         } else {
             println "The model is empty!"
         }
+        latestModel = model
         true
     }
 }

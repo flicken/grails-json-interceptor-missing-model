@@ -12,3 +12,4 @@ class ApplicationController implements PluginManagerAware {
         [grailsApplication: grailsApplication, pluginManager: pluginManager]
     }
 }
+

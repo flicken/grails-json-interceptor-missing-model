@@ -85,3 +85,7 @@ tasks.withType(GroovyCompile) {
         forkOptions.jvmArgs = ['-Xmx1024m']
     }
 }
+
+integrationTest {
+    reports.html.enabled = true
+}
