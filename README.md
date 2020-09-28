@@ -1,4 +1,4 @@
-See https://stackoverflow.com/questions/64087536/grails-json-renderer-not-exposing-model-for-interceptor/
+Filed as [grails-views#235](https://github.com/grails/grails-views/issues/235).  See also [Stackoverflow question](https://stackoverflow.com/questions/64087536/grails-json-renderer-not-exposing-model-for-interceptor/).
 
 I want to use the `model` field in an `Interceptor` for a JSON REST response.
 
